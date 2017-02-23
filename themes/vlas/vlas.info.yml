@@ -22,3 +22,4 @@ regions:
 libraries:
   - 'vlas/global-styling'
   - 'vlas/bootstrap-scripts'
+  - 'vlas/fonts'

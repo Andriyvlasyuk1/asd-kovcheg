@@ -8007,4 +8007,68 @@ p:last-child,
   margin-top: 0;
 }
 
+@media screen and (max-width: 425px) {
+  .block-views-blockkategorii-block-1 {
+    padding: 12px;
+    background: #212121 url(../../../images/theming/taxonomy/background.png) repeat;
+  }
+  .block-views-blockkategorii-block-1 .link_to_taxonomy {
+    padding: 1.25em 80px 1em 1.25em;
+    background: url(../../../images/theming/taxonomy/bg01.png) no-repeat right top;
+    position: relative;
+  }
+  .block-views-blockkategorii-block-1 .link_to_taxonomy::before {
+    display: inline-block;
+    font-family: FontAwesome;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: '\f0a9';
+    position: absolute;
+    right: 24px;
+    top: 50%;
+    margin-top: -32px;
+    font-size: 64px;
+    color: #fff;
+  }
+  .block-views-blockkategorii-block-1 h2 {
+    line-height: 1.25em !important;
+    font-size: 1.5em !important;
+    letter-spacing: 0px !important;
+  }
+  .block-views-blockkategorii-block-1 h2 a {
+    color: #fff;
+  }
+  .block-views-blockkategorii-block-1 p {
+    font-weight: 300;
+    letter-spacing: 0;
+    opacity: 0.65;
+    color: inherit;
+    margin: 0.25em 0 0 0;
+    font-size: 1.25em;
+    line-height: 1.5em;
+  }
+  .block-views-blockkategorii-block-1 .col-1 {
+    margin: 14px;
+  }
+  .block-views-blockkategorii-block-1 .col-1 .link_to_taxonomy {
+    background-color: #0087cd;
+  }
+  .block-views-blockkategorii-block-1 .col-2 {
+    margin: 14px;
+  }
+  .block-views-blockkategorii-block-1 .col-2 .link_to_taxonomy {
+    background-color: #d93d00;
+  }
+  .block-views-blockkategorii-block-1 .col-3 {
+    margin: 14px;
+  }
+  .block-views-blockkategorii-block-1 .col-3 .link_to_taxonomy {
+    background-color: #414141;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

@@ -6,3 +6,11 @@
 
 // Base-theme overrides.
 @import 'overrides';
+
+@media screen and (max-width: 425px) {
+  .block-views-blockkategorii-block-1 {
+    img {
+      width: 76%;
+    }
+  }
+}
