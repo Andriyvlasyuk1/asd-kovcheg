@@ -9,6 +9,10 @@
 
 //@media screen and (max-width: 425px) {
 
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
   .header {
     overflow: hidden;
     background: #080808 url(../../../images/theming/taxonomy/background.png) repeat;
@@ -22,6 +26,9 @@
         background: rgba(128, 128, 128, 0.75);
         border-radius: 0;
         border: 0;
+        width: 65px;
+        height: 36px;
+        text-align: -webkit-center;
       }
     }
 
@@ -43,13 +50,18 @@
 
   .path-home {
     .main-container {
-      width: 100%;
+      width: 98%;
       padding: 0;
 
       .col-sm-12 {
         padding: 0;
       }
     }
+  }
+
+  .block-views-blockslider-block-1 {
+    padding: 12px;
+    background: #212121 url(../../../images/theming/taxonomy/background.png) repeat;
   }
 
   .block-views-blockkategorii-block-1 {

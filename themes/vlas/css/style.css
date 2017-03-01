@@ -8007,6 +8007,11 @@ p:last-child,
   margin-top: 0;
 }
 
+.row {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .header {
   overflow: hidden;
   background: #080808 url(../../../images/theming/taxonomy/background.png) repeat;
@@ -8042,20 +8047,49 @@ p:last-child,
 .path-home .main-container {
   width: 100%;
   padding: 0;
-  overflow: hidden;
 }
 .path-home .main-container .col-sm-12 {
   padding: 0;
 }
 
-.block-views-blockkategorii-block-1 {
+.block-views-blockslider-block-1 {
   padding: 12px;
   background: #212121 url(../../../images/theming/taxonomy/background.png) repeat;
+}
+.block-views-blockslider-block-1 img {
+  width: 100%;
+}
+.block-views-blockslider-block-1 .slick-dots {
+  display: inline-block;
+  width: auto;
+  position: absolute;
+  right: 24em;
+  bottom: 1em;
+}
+.block-views-blockslider-block-1 .slick-slider {
+  margin-bottom: 0;
+}
+.block-views-blockslider-block-1 .slick-dots li button::before {
+  font-size: 1.75rem;
+}
+
+.block-views-blockkategorii-block-1 {
+  text-align: center;
+  padding: 12px;
+  background: #212121 url(../../../images/theming/taxonomy/background.png) repeat;
+}
+.block-views-blockkategorii-block-1 .views-col {
+  margin: 0;
+}
+.block-views-blockkategorii-block-1 .form-group {
+  display: inline-block;
+  margin: 0 auto;
 }
 .block-views-blockkategorii-block-1 .link_to_taxonomy {
   padding: 1.25em 80px 1em 1.25em;
   background: url(../../../images/theming/taxonomy/bg01.png) no-repeat right top;
   position: relative;
+  text-align: left;
 }
 .block-views-blockkategorii-block-1 .link_to_taxonomy::before {
   display: inline-block;
@@ -8091,23 +8125,35 @@ p:last-child,
   font-size: 1.25em;
   line-height: 1.5em;
 }
-.block-views-blockkategorii-block-1 .col-1 {
-  margin: 14px;
+.block-views-blockkategorii-block-1 .views-col {
+  margin-bottom: 14px;
+  width: 100%;
+}
+.block-views-blockkategorii-block-1 .views-col img {
+  width: 100%;
 }
 .block-views-blockkategorii-block-1 .col-1 .link_to_taxonomy {
   background-color: #0087cd;
-}
-.block-views-blockkategorii-block-1 .col-2 {
-  margin: 14px;
 }
 .block-views-blockkategorii-block-1 .col-2 .link_to_taxonomy {
   background-color: #d93d00;
 }
 .block-views-blockkategorii-block-1 .col-3 {
-  margin: 14px;
+  margin-bottom: 14px;
+  width: 100%;
+}
+.block-views-blockkategorii-block-1 .col-3 img {
+  width: 100%;
 }
 .block-views-blockkategorii-block-1 .col-3 .link_to_taxonomy {
   background-color: #414141;
+}
+
+.block-views-blockview-materials-departments-block-1 {
+  padding: 12px;
+}
+.block-views-blockview-materials-departments-block-1 img {
+  width: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
