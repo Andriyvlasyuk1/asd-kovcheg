@@ -50,7 +50,7 @@
 
   .path-home {
     .main-container {
-      width: 98%;
+      width: 100%;
       padding: 0;
 
       .col-sm-12 {
@@ -62,16 +62,47 @@
   .block-views-blockslider-block-1 {
     padding: 12px;
     background: #212121 url(../../../images/theming/taxonomy/background.png) repeat;
+
+    img {
+      width: 100%;
+    }
+
+    .slick-dots{
+      display: inline-block;
+      width: auto;
+      position: absolute;
+      right: 24em;
+      bottom: 1em;
+    }
+
+    .slick-slider {
+      margin-bottom: 0;
+    }
+
+    .slick-dots li button::before {
+      font-size: 1.75rem;
+    }
   }
 
   .block-views-blockkategorii-block-1 {
+    text-align: center;
     padding: 12px;
     background: #212121 url(../../../images/theming/taxonomy/background.png) repeat;
+
+    .views-col {
+      margin: 0;
+    }
+
+    .form-group{
+      display: inline-block;
+      margin: 0 auto;
+    }
 
     .link_to_taxonomy {
       padding: 1.25em 80px 1em 1.25em;
       background: url(../../../images/theming/taxonomy/bg01.png) no-repeat right top;
       position: relative;
+      text-align: left;
     }
 
     .link_to_taxonomy::before {
@@ -111,8 +142,16 @@
       line-height: 1.5em;
     }
 
+    .views-col {
+      margin-bottom: 14px;
+      width: 100%;
+
+      img {
+        width: 100%;
+      }
+    }
+
     .col-1 {
-      margin: 14px;
 
       .link_to_taxonomy {
         background-color: #0087cd;
@@ -120,7 +159,6 @@
     }
 
     .col-2 {
-      margin: 14px;
 
       .link_to_taxonomy {
         background-color: #d93d00;
@@ -128,11 +166,18 @@
     }
 
     .col-3 {
-      margin: 14px;
 
       .link_to_taxonomy {
         background-color: #414141;
       }
+    }
+  }
+
+  .block-views-blockview-materials-departments-block-1 {
+    padding: 12px;
+
+    img {
+      width: 100%;
     }
   }
 //}

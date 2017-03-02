@@ -16,7 +16,6 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans");
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -6347,9 +6346,6 @@ p:last-child,
   .help-block:first-child, .control-group .help-inline:first-child {
     margin-top: 0; }
 
-body {
-  font-family: "Open Sans", sans-serif !important; }
-
 .row {
   margin-left: 0;
   margin-right: 0; }
@@ -6361,8 +6357,6 @@ body {
   .header .navbar-default {
     background: none;
     border: 0; }
-    .header .navbar-default .navbar-brand {
-      color: #fff; }
     .header .navbar-default .navbar-toggle {
       background: rgba(128, 128, 128, 0.75);
       border-radius: 0;
@@ -6458,53 +6452,16 @@ body {
     background-color: #0087cd; }
   .block-views-blockkategorii-block-1 .col-2 .link_to_taxonomy {
     background-color: #d93d00; }
-  .block-views-blockkategorii-block-1 .col-3 .link_to_taxonomy {
-    background-color: #414141; }
+  .block-views-blockkategorii-block-1 .col-3 {
+    margin-bottom: 14px;
+    width: 100%; }
+    .block-views-blockkategorii-block-1 .col-3 img {
+      width: 100%; }
+    .block-views-blockkategorii-block-1 .col-3 .link_to_taxonomy {
+      background-color: #414141; }
 
 .block-views-blockview-materials-departments-block-1 {
-  padding: 12px;
-  position: relative; }
-  .block-views-blockview-materials-departments-block-1 p {
-    color: #a0a0a0;
-    margin-bottom: 1em;
-    line-height: 2em; }
-  .block-views-blockview-materials-departments-block-1 h3 {
-    margin-bottom: 1em; }
-    .block-views-blockview-materials-departments-block-1 h3 a {
-      color: #262626; }
-  .block-views-blockview-materials-departments-block-1 .views-field-view-node {
-    background: url(../../../images/theming/taxonomy/bg01.png) no-repeat right top;
-    position: relative;
-    text-align: left;
-    margin-top: 20px;
-    padding: 19px;
-    padding-left: 50px;
-    font-size: 1.25em; }
-    .block-views-blockview-materials-departments-block-1 .views-field-view-node a {
-      color: #fff; }
-  .block-views-blockview-materials-departments-block-1 .views-field-view-node::before {
-    display: inline-block;
-    font-family: FontAwesome;
-    text-decoration: none;
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    content: '\f0a9';
-    position: absolute;
-    left: 20px;
-    top: 19px;
-    font-size: 26px;
-    color: #fff; }
-  .block-views-blockview-materials-departments-block-1 .views-col {
-    margin-bottom: 4em; }
-  .block-views-blockview-materials-departments-block-1 .col-1 .views-field-view-node {
-    background-color: #0087cd; }
-  .block-views-blockview-materials-departments-block-1 .col-2 .views-field-view-node {
-    background-color: #d93d00; }
-  .block-views-blockview-materials-departments-block-1 .col-3 .views-field-view-node {
-    background-color: #414141; }
+  padding: 12px; }
   .block-views-blockview-materials-departments-block-1 img {
     width: 100%; }
 
