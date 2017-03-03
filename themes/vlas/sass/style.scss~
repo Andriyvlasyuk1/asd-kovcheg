@@ -7,7 +7,14 @@
 // Base-theme overrides.
 @import 'overrides';
 
+//font
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 //@media screen and (max-width: 425px) {
+
+body {
+  font-family: "Open Sans", sans-serif !important;
+}
 
 .row {
   margin-left: 0;
@@ -21,6 +28,10 @@
     .navbar-default {
       background: none;
       border: 0;
+
+      .navbar-brand {
+        color: #fff;
+      }
 
       .navbar-toggle {
         background: rgba(128, 128, 128, 0.75);
@@ -175,6 +186,77 @@
 
   .block-views-blockview-materials-departments-block-1 {
     padding: 12px;
+    position: relative;
+
+    p {
+      color: #a0a0a0;
+      margin-bottom: 1em;
+      line-height: 2em;
+    }
+
+    h3 {
+      margin-bottom: 1em;
+      a{
+        color: #262626;
+      }
+    }
+
+    .views-field-view-node {
+      //padding: 1.25em 80px 1em 1.25em;
+      background: url(../../../images/theming/taxonomy/bg01.png) no-repeat right top;
+      position: relative;
+      text-align: left;
+      margin-top: 20px;
+      padding: 19px;
+      padding-left: 50px;
+      font-size: 1.25em;
+
+      a {
+        color: #fff;
+      }
+    }
+
+    .views-field-view-node::before {
+      display: inline-block;
+      font-family: FontAwesome;
+      text-decoration: none;
+      font-style: normal;
+      font-weight: normal;
+      line-height: 1;
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+      content: '\f0a9';
+      position: absolute;
+      left: 20px;
+      top: 19px;
+      font-size: 26px;
+      color: #fff;
+    }
+
+    .views-col {
+      margin-bottom: 4em;
+    }
+
+    .col-1 {
+
+      .views-field-view-node {
+        background-color: #0087cd;
+      }
+    }
+
+    .col-2 {
+
+      .views-field-view-node {
+        background-color: #d93d00;
+      }
+    }
+
+    .col-3 {
+
+      .views-field-view-node {
+        background-color: #414141;
+      }
+    }
 
     img {
       width: 100%;

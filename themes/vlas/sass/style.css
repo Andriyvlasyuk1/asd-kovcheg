@@ -6354,6 +6354,9 @@ body {
   margin-left: 0;
   margin-right: 0; }
 
+h2, h3 {
+  font-size: 1.5em; }
+
 .header {
   overflow: hidden;
   background: #080808 url(../../../images/theming/taxonomy/background.png) repeat;
@@ -6407,10 +6410,8 @@ body {
 
 .block-views-blockkategorii-block-1 {
   text-align: center;
-  padding: 12px;
+  padding: 20px;
   background: #212121 url(../../../images/theming/taxonomy/background.png) repeat; }
-  .block-views-blockkategorii-block-1 .views-col {
-    margin: 0; }
   .block-views-blockkategorii-block-1 .form-group {
     display: inline-block;
     margin: 0 auto; }
@@ -6450,7 +6451,7 @@ body {
     font-size: 1.25em;
     line-height: 1.5em; }
   .block-views-blockkategorii-block-1 .views-col {
-    margin-bottom: 14px;
+    margin-bottom: 30px;
     width: 100%; }
     .block-views-blockkategorii-block-1 .views-col img {
       width: 100%; }
@@ -6462,7 +6463,7 @@ body {
     background-color: #414141; }
 
 .block-views-blockview-materials-departments-block-1 {
-  padding: 12px;
+  padding: 20px;
   position: relative; }
   .block-views-blockview-materials-departments-block-1 p {
     color: #a0a0a0;
@@ -6507,5 +6508,25 @@ body {
     background-color: #414141; }
   .block-views-blockview-materials-departments-block-1 img {
     width: 100%; }
+
+.block-views-blockdepartments-block-1 {
+  padding: 20px; }
+  .block-views-blockdepartments-block-1 p {
+    margin: 0 0 2em 0;
+    color: #a0a0a0;
+    line-height: 22px;
+    font-size: 13px; }
+  .block-views-blockdepartments-block-1 .views-row {
+    padding: 0.575em 0;
+    border-top: 1px solid #e0e0e0; }
+    .block-views-blockdepartments-block-1 .views-row a {
+      color: #0087cd;
+      text-decoration: none;
+      font-size: 13px;
+      line-height: 1.75em; }
+    .block-views-blockdepartments-block-1 .views-row a:hover {
+      text-decoration: none; }
+  .block-views-blockdepartments-block-1 .views-row:first-child {
+    border-top: none; }
 
 /*# sourceMappingURL=style.css.map */

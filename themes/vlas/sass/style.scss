@@ -20,6 +20,11 @@ body {
   margin-left: 0;
   margin-right: 0;
 }
+
+h2, h3 {
+  font-size: 1.5em;
+}
+
   .header {
     overflow: hidden;
     background: #080808 url(../../../images/theming/taxonomy/background.png) repeat;
@@ -97,12 +102,8 @@ body {
 
   .block-views-blockkategorii-block-1 {
     text-align: center;
-    padding: 12px;
+    padding: 20px;
     background: #212121 url(../../../images/theming/taxonomy/background.png) repeat;
-
-    .views-col {
-      margin: 0;
-    }
 
     .form-group{
       display: inline-block;
@@ -154,7 +155,7 @@ body {
     }
 
     .views-col {
-      margin-bottom: 14px;
+      margin-bottom: 30px;
       width: 100%;
 
       img {
@@ -185,7 +186,7 @@ body {
   }
 
   .block-views-blockview-materials-departments-block-1 {
-    padding: 12px;
+    padding: 20px;
     position: relative;
 
     p {
@@ -260,6 +261,38 @@ body {
 
     img {
       width: 100%;
+    }
+  }
+
+  .block-views-blockdepartments-block-1 {
+    padding: 20px;
+
+    p {
+      margin: 0 0 2em 0;
+      color: #a0a0a0;
+      line-height: 22px;
+      font-size: 13px;
+    }
+
+
+    .views-row {
+      padding: 0.575em 0;
+      border-top: 1px solid #e0e0e0;
+
+      a {
+        color: #0087cd;
+        text-decoration: none;
+        font-size: 13px;
+        line-height: 1.75em;
+      }
+
+      a:hover {
+        text-decoration: none;
+      }
+    }
+
+    .views-row:first-child {
+      border-top: none;
     }
   }
 //}
